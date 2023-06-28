@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- title      -->
+
+  <title>Amazon CLone by KP</title>
+
+  <!-- links -->
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="/styleres.css">
+</head>
+
+<body>
+
+  <div class="navbar-container">
+
+    <div class="amazon-navbar ">
+      <div class="logo-container">
+        <img src="../images/logo.png" class="logo" alt="logo">
+        <p class="domain">.in</p>
+      </div>
+
+
+      <i class="fa-sharp fa-solid fa-location-dot d-none d-xxl-block"
+        style="color: #ffffff; margin-top: 25px; margin-left: 10px;"></i>
+      <div class="location">
+
+        <div style="color: white; margin-left: 8px; margin-top: 15px;">
+          <em>Location</em>
+        </div>
+        <div style="color: white; margin-bottom: 30px; position:absolute; ">
+          <h5>Bengaluru </h5>
+        </div>
+
+      </div>
+
+
+      <div class="d-none d-xl-block d-xxl-block">
+        <div class="searchbar">
+          <select style="height: 40px; border-radius: 5px 0 0 5px;">
+            <option>All</option>
+          </select>
+          <input type="search" value="Search Amazon.in" style="height: 40px; width: 45vw;">
+          <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="dropdown my-3 mx-2">
+        <button class="btn btn-tertiary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"
+          style="color: white;">
+          <i class="fa-regular fa-flag" style="color: #fffefe;"></i>
+
+          EN
+
+
+        </button>
+        <ul class="dropdown-menu ">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+
+
+      <div class="dropdown-acounts d-none d-md-block d-xl-block d-xxl-block">
+
+        <p style="color: white; margin-bottom: 0px; margin-top: 15px;"> <em> Hello, User </em> </p>
+        <div class="dropdown mb-4 mt-0 ml-0" style="position: relative;">
+          <button class="btn btn-tertiary dropdown-toggle mb-3 ml-3 mt-0" type="button" data-bs-toggle="dropdown"
+            aria-expanded="false" style="color: white; position: relative;">
+
+            Accounts
+
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Accounts</a></li>
+            <li><a class="dropdown-item" href="#">Orders</a></li>
+            <li><a class="dropdown-item" href="#">Support</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="cart-item d-none d-md-block">
+
+
+        <img src="../images/cart.jpg" alt="cart"
+          style="height: 48px; width: 120px; margin-top: 20px; border-radius: 10px;">
+
+
+
+      </div>
+
+
+    </div>
+
+
+
+
+
+
+    <div class="navbar-tail">
+
+      <div class="first-tail-component">
+
+
+
+
+        <i class="fa-sharp fa-solid fa-bars" style="color: #fafafa; margin-left: 15px; margin-top: 5px; "></i>
+        <h5 style="color: white; position: relative; margin-left: 10px;"> All </h5>
+
+
+
+
+
+
+      </div>
+
+
+      <div class="mid-tail-component mx-2">
+
+        <p class="tail-items mx-1"> Fresh </p>
+        <p class="tail-items mx-1"> Amazon Mini TV</p>
+        <p class="tail-items mx-1"> Sell</p>
+        <p class="tail-items mx-1"> Amazon Pay</p>
+        <p class="tail-items mx-1"> Gift cards</p>
+        <p class="tail-items mx-1"> Buy Again</p>
+        <p class="tail-items mx-1 	d-none d-xxl-block"> Health,household and personal care</p>
+        <p class="tail-items mx-1   d-none d-xxl-block"> Coupons</p>
+        <p class="tail-items mx-1   d-none d-xxl-block"> Amazon Basics</p>
+
+
+      </div>
+
+      <div class="last-tail-component">
+
+       <p class="tail-items mx-1 d-none d-xxl-block">
+       New Launches From Mobile, Electronics | Shop more 
+       </p>
+      
+
+      </div>
+
+    </div>
+
+
+
+  </div>
+  <!-- carousel  -->
+  <div id="carouselExampleAutoplaying" class="carousel slide d-none d-lg-block d-md-block d-xl-block"
+    data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active bg-img-1">
+        <!-- <img src="../images/carouselitem1.jpg" class="d-block w-100" alt="..."> -->
+      </div>
+      <div class="carousel-item bg-img-2">
+        <!-- <img src="../images/carouselitem2.jpg" class="d-block w-100" alt="..."> -->
+      </div>
+      <div class="carousel-item bg-img-3">
+        <!-- <img src="../images/carouselitem3.jpg" class="d-block w-100" alt="..."> -->
+      </div>
+    </div>
+    <button class="carousel-control-prev" style="justify-self: flex-start; align-items: flex-start;" type="button"
+      data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <div class="carousel-button-prev">
+        <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+      </div>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next  " style="justify-self: flex-start; align-items: flex-start;" type="button"
+      data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <div class="carousel-button-next"></div>
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+  <!-- products -->
+
+  <div class="item-body">
+
+
+    <div class=" products-container">
+
+      <div class="first-set">
+
+        <div class="card products1">
+          <h3>Buy Again 1</h3>
+          <div style="justify-content: center; align-items: center;">
+            <img src="../images/productimg1.jpg" class="product-img-1" alt="product image"
+              style="width: 100px; margin-right: 50px; max-height: 120px;">
+            <img src="../images/productimg2.jpg" alt="product image" class="product-img-2"
+              style="width: 100px; max-height: 120px;">
+          </div>
+          <div>
+            <img src="../images/productimg3.jpg" alt="product image" class="product-img-3"
+              style="width: 100px; margin-right: 50px; max-height: 120px;">
+            <img src="../images/productimg4.jpg" alt="product image" class="product-img-4"
+              style="width: 100px;  max-height: 120px;">
+          </div>
+        </div>
+
+        <div class="card products1">
+          <h3>Footwears | Check New</h3>
+          <div style="justify-content: center; align-items: center;">
+            <img src="../images/shoes1.jpg" class="product-img-1" alt="product image"
+              style="width: 100px; margin-right: 50px; max-height: 120px;">
+            <img src="../images/shoes2.jpg" alt="product image" class="product-img-2"
+              style="width: 100px; max-height: 120px;">
+          </div>
+          <div>
+            <img src="../images/shoes3.jpg" alt="product image" class="product-img-3"
+              style="width: 100px; margin-right: 50px; max-height: 120px;">
+            <img src="../images/bag1.jpg" alt="product image" class="product-img-4"
+              style="width: 100px;  max-height: 120px;">
+          </div>
+        </div>
+      </div>
+
+      <div class="second-set">
+        <div class="card products1">
+          <h3>Travel</h3>
+          <div style="justify-content: center; align-items: center;">
+            <img src="../images/travel1.jpg" class="product-img-1" alt="product image"
+              style="width: 100px; margin-right: 50px; max-height: 120px;">
+            <img src="../images/travel2.jpg" alt="product image" class="product-img-2"
+              style="width: 100px; max-height: 120px;">
+          </div>
+          <div>
+            <img src="../images/travel3.jpg" alt="product image" class="product-img-3"
+              style="width: 100px; margin-right: 50px; max-height: 120px;">
+            <img src="../images/travel4.jpg" alt="product image" class="product-img-4"
+              style="width: 100px;  max-height: 120px;">
+          </div>
+
+        </div>
+        <div class="card products1">
+          <h3>Check Amazon Pay</h3>
+          <div style="justify-content: center; align-items: center;">
+            <img src="../images/pay1.jpg" class="product-img-1" alt="product image"
+              style="width: 100px; margin-right: 50px; max-height: 120px;">
+            <img src="../images/pay2.jpg" alt="product image" class="product-img-2"
+              style="width: 100px; max-height: 120px;">
+          </div>
+          <div>
+            <img src="../images/pay3.jpg" alt="product image" class="product-img-3"
+              style="width: 100px; margin-right: 50px; max-height: 120px;">
+            <img src="../images/pay4.jpg" alt="product image" class="product-img-4"
+              style="width: 100px;  max-height: 120px;">
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+
+
+
+
+
+    <!-- second container for products -->
+
+
+
+    <div class=" products-container2">
+
+      <div class="first-set">
+
+        <div class="card products1">
+          <h3>Household Items</h3>
+          <div style="justify-content: center; align-items: center;">
+            <img src="../images/house1.jpg" class="product-img-1" alt="product image"
+              style="width: 100px; margin-right: 50px; max-height: 120px;">
+            <img src="../images/house2.jpg" alt="product image" class="product-img-2"
+              style="width: 100px; max-height: 120px;">
+          </div>
+          <div>
+            <img src="../images/house3.jpg" alt="product image" class="product-img-3"
+              style="width: 100px; margin-right: 50px; max-height: 120px;">
+            <img src="../images/house4.jpg" alt="product image" class="product-img-4"
+              style="width: 100px;  max-height: 120px;">
+          </div>
+        </div>
+
+        <div class="card products1">
+          <h3>Check Latest Electronics</h3>
+          <div style="justify-content: center; align-items: center;">
+            <img src="../images/electronic1.jpg" class="product-img-1" alt="product image"
+              style="width: 100px; margin-right: 50px; max-height: 120px;">
+            <img src="../images/electronic2.jpg" alt="product image" class="product-img-2"
+              style="width: 100px; max-height: 120px;">
+          </div>
+          <div>
+            <img src="../images/electronic3.jpg" alt="product image" class="product-img-3"
+              style="width: 100px; margin-right: 50px; max-height: 120px;">
+            <img src="../images/electronic4.jpg" alt="product image" class="product-img-4"
+              style="width: 100px;  max-height: 120px;">
+          </div>
+        </div>
+      </div>
+      <div class="second-set">
+        <div class="card products1">
+          <h3>Food Items</h3>
+          <div style="justify-content: center; align-items: center;">
+            <img src="../images/food1.jpg" class="product-img-1" alt="product image"
+              style="width: 100px; margin-right: 50px; max-height: 120px;">
+            <img src="../images/food2.jpg" alt="product image" class="product-img-2"
+              style="width: 100px; max-height: 120px;">
+          </div>
+          <div>
+            <img src="../images/food3.jpg" alt="product image" class="product-img-3"
+              style="width: 100px; margin-right: 50px; max-height: 120px;">
+            <img src="../images/food4.jpg" alt="product image" class="product-img-4"
+              style="width: 100px;  max-height: 120px;">
+          </div>
+
+        </div>
+        <div class="card products1">
+          <h3>Wedding Season</h3>
+          <div style="justify-content: center; align-items: center;">
+            <img src="../images/wedding1.jpg" class="product-img-1" alt="product image"
+              style="width: 100px; margin-right: 50px; max-height: 120px;">
+            <img src="../images/wedding2.jpg" alt="product image" class="product-img-2"
+              style="width: 100px; max-height: 120px;">
+          </div>
+          <div>
+            <img src="../images/wedding3.jpg" alt="product image" class="product-img-3"
+              style="width: 100px; margin-right: 50px; max-height: 120px;">
+            <img src="../images/wedding4.jpg" alt="product image" class="product-img-4"
+              style="width: 100px;  max-height: 120px;">
+          </div>
+        </div>
+
+
+
+      </div>
+
+
+    </div>
+
+    <footer>
+
+      <div class="footer-container">
+
+        <div  class="footer-element mt-5">
+         <h3> Get to know us</h3>
+         <p> About us </p>
+         <p> Careers</p>
+         <p> Press Releases </p>
+         <p> Amazon Science </p>
+        </div>
+
+        <div class="footer-element mt-5">
+         <h3> Connect with us</h3>
+         <p> Facebook </p>
+         <p> Instagram</p>
+         <p> Twitter </p>
+         
+        </div>
+
+        <div class="footer-element mt-5">
+          <h3> Make money with us</h3>
+          <p> Sell on Amazon </p>
+          <p> Sell under Amazon Acceleraator</p>
+          <p> Protect and build your brand </p>
+          <p> Amazon Global Selling</p>
+          <p> Become an Affiliate </p>
+          <p> Fulfilment by Amazon </p>
+          <p> Advertise Your Products </p>
+          <p> Amazon Pay on Merchants </p>
+        </div>
+
+        <div class="footer-element mt-5">
+         <h3> Let Us Help You</h3>
+         <p> COVID-19 and Amazon </p>
+         <p> Your Account</p>
+         <p>Returns Centre </p>
+         <p> 100% Purchase Protection</p>
+         <p>Amazon App Download</p>
+         <p>Help</p>
+        </div>
+        
+        <div class="attribute">
+         
+          <div class="footer-logo">
+            
+            <img src="../images/logo.png" alt="logo" style="height: 60px; width:120px;">
+  
+          </div>
+         
+        </div>
+       
+        
+
+      </div>
+
+     
+
+
+
+    </footer>
+
+
+
+    <!-- scripts     -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js"
+      integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

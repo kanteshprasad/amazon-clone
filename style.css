@@ -1,0 +1,264 @@
+.amazon-navbar{
+    height: 80px;
+    width: 100vw;
+    background-color: rgb(15, 17, 17);
+    display: flex;
+}
+body{
+    margin: 0;
+    background-color: rgba(194, 183, 183, 0.944);
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.navbar-tail{
+    height: 35px;
+    width: 100vw;
+    background-color: rgb(35, 47, 62);
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    gap:30px;
+}
+
+#carouselExampleAutoplaying{
+    margin-top: 0;
+    height: 90vh;
+    width: 100vw;
+    
+}
+.location{
+    
+   
+    height: 70px;
+    width: 100px ;
+}
+.location:hover {
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+ul{
+  list-style-type: none;
+  
+}
+
+li{
+  display: inline;
+}
+.first-tail-component{
+  display: flex;
+}
+
+
+
+
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+
+.logo-container:hover{
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.domain{
+    color: white;
+    
+}
+
+.logo{
+height: 70px;
+width: 120px;
+}
+
+p{
+  color: white;
+}
+
+#carouselExampleAutoplaying{
+    display:inline ;
+}
+
+.bg-img-1{
+background-image: url(./images/carouselitem1.jpg);
+}
+
+.bg-img-2{
+    background-image: url(./images/carouselitem2.jpg);  
+}
+
+.bg-img-3{
+    background-image: url(./images/carouselitem3.jpg);
+}
+
+.carousel-item{
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/* products */
+.card{
+    width: 350px;
+    min-height: 50vh;
+    justify-content: space-around;
+    padding: 10px;
+    margin-top: 10px;
+    min-width: 20vw;
+}
+
+.first-set{
+    display: flex;
+    gap: 2em;
+}
+
+
+
+.second-set{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+.item-body{
+    margin: 0;
+}
+
+.searchbar{
+    margin-top: 17.5px;
+    height: 45px;
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.search-icon{
+    position: relative;
+    height: 40px;
+    width: 45px;
+    background-color: rgb(232, 167, 55);
+    border-radius: 0px 5px 5px 0px;
+   
+}
+
+.fa-magnifying-glass{
+    margin-left: 13px;
+    margin-top: 13px;
+}
+
+.carousel-control-prev{
+ margin-top: 80px;
+ margin-right: 10px;
+}
+
+.carousel-control-next{
+    margin-top: 80px;
+}
+
+.dropdown-acounts{
+    display: grid;
+    
+}
+
+.cart-item{
+    height: 78px;
+    margin-left: 150px;
+}
+
+
+/* footer */
+
+.footer-container{
+
+  position: absolute;
+  margin-top: 70vh;
+  height: 500px;
+  width: 100vw;
+  background-color: rgb(13, 14, 31);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2em;
+  
+}
+
+
+.mid-tail-component{
+  position: relative;
+  height: 35px;
+  display: inline;
+  width: 70vw;
+  gap:5px;
+  
+
+}
+
+.first-tail-component{
+  height:35px;
+  display: flex;
+  width: 5vw;
+}
+
+div.last-tail-component > p{
+  display: inline;
+  color: white;
+  margin-top: 5px;
+  padding-bottom: 5px;
+}
+div.first-tail-component > p{
+  display: inline;
+  color: white;
+  margin-top: 5px;
+  padding-bottom: 5px;
+}
+div.mid-tail-component > p{
+  display: inline;
+  color: white;
+  margin-top: 5px;
+  padding-bottom: 5px;
+}
+  
+
+
+
+div.mid-tail-component > p:hover{
+  border-radius:5px;
+  height:30px;
+  padding:2px;
+  border: 1px solid white;
+}
+
+.last-tail-component{
+  margin-right: 0px;
+  width: 30vw;
+}
+
+div.last-tail-component > p:hover{
+  border-radius:5px;
+  height:30px;
+  padding:2px;
+  border: 1px solid white;
+}
+
+div.footer-element > h3 {
+  color: white;
+}
+
+.attribute{
+  position: absolute;
+  margin-top:450px;
+  height:40px;
+  width:120px;
+
+}
+
+.footer-logo{
+  position: relative;
+  height:40px;
+  width:120px;
+}
+
